@@ -104,4 +104,4 @@ kill "$agent_pid" "$server_pid"
 rm -r "$svid_dir"
 ```
 
-Continue by [configuring SPIRE](/docs/spire/deploying/configuring/) for your environment.
+Continue with [service authentication](/docs/spiffe/use-cases/service-authentication/) to use SVIDs in a connection, or [configure SPIRE](/docs/spire/deploying/configuring/) for your environment.

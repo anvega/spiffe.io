@@ -22,7 +22,7 @@ Open <http://localhost:4173>. `npm run check` verifies the built links, anchors,
 
 ## Contribute
 
-Follow the repository's [contribution instructions](../CONTRIBUTING.md), including DCO sign-off (`git commit -s`). Edit pages in `src/content/docs/`. SPIFFE concepts and specifications belong under `docs/spiffe/`; SPIRE setup and operations belong under `docs/spire/`. Keep legacy URLs in `src/data/redirects.json` and important inbound fragments in `src/data/legacy-routes.json`.
+Follow the repository's [contribution instructions](../CONTRIBUTING.md), including DCO sign-off (`git commit -s`). Edit pages in `src/content/docs/`. SPIFFE application guides belong under `docs/spiffe/use-cases/`; SPIRE setup and operations belong under `docs/spire/`. Keep legacy URLs in `src/data/redirects.json` and important inbound fragments in `src/data/legacy-routes.json`.
 
 For a blog post, copy `src/content/docs/blog/_template.md` to a dated filename in the same directory. Fill in its metadata and set `draft: false` when ready. Draft and future-dated posts are excluded from production routes, the listing, search, and RSS. Images live in `public/blog-assets/`.
 
