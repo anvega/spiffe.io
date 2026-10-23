@@ -234,7 +234,11 @@
         "url": "https://platform.claude.com/docs/en/manage-claude/wif-reference"
       }
     ],
-    "checked": "2026-10-22"
+    "checked": "2026-10-22",
+    "guide": {
+      "label": "Authenticate to AI APIs",
+      "url": "/docs/spiffe/use-cases/ai-api-authentication/"
+    }
   },
   {
     "name": "OpenAI",
@@ -253,7 +257,11 @@
         "url": "https://developers.openai.com/api/reference/workload-identity-federation"
       }
     ],
-    "checked": "2026-10-22"
+    "checked": "2026-10-22",
+    "guide": {
+      "label": "Authenticate to AI APIs",
+      "url": "/docs/spiffe/use-cases/ai-api-authentication/"
+    }
   },
   {
     "name": "Riptides",

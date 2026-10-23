@@ -209,6 +209,9 @@ categories:
         description: Service mesh that can issue SPIFFE identities to the services it
           manages.
       - name: nono
+        guide:
+          label: Authenticate to AI APIs
+          url: /docs/spiffe/use-cases/ai-api-authentication/
         type: community
         weight: 500
         link: https://github.com/nolabs-ai/nono

@@ -15,7 +15,7 @@ A SPIFFE ID names a workload within a trust domain. In `spiffe://example.org/pay
 
 ### Trust Domain
 
-A trust domain is an identity authority's namespace. It groups workloads governed by a common identity policy. Separate environments can use separate trust domains and establish [federation](/docs/spiffe/specs/federation/) when they need to authenticate each other's workloads.
+A trust domain is an identity authority's namespace. It groups workloads governed by a common identity policy. Separate environments can use separate trust domains and establish [federation](/docs/spiffe/use-cases/federation/) when they need to authenticate each other's workloads.
 
 ### SPIFFE Verifiable Identity Document (SVID)
 
@@ -40,4 +40,4 @@ A trust bundle contains the public verification material for a trust domain. X.5
 
 ## Further Reading
 
-Read the [stable profiles and incubating specifications](/docs/spiffe/specs/) for normative requirements and maturity labels.
+Read the [stable profiles and incubating specifications](/docs/spiffe/specs/) for normative requirements and maturity labels. The [service authentication guide](/docs/spiffe/use-cases/service-authentication/) shows how these pieces fit into a connection.
