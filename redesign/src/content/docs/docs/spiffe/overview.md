@@ -22,6 +22,8 @@ Authenticating a peer establishes its identity. The receiving system still decid
 ## Choose your next step
 
 - [Understand the concepts](/docs/spiffe/concepts/).
+- [Use SPIFFE in an application](/docs/spiffe/use-cases/service-authentication/).
+- [Design identity for high-assurance systems](/docs/spiffe/use-cases/high-assurance/).
 - [Read the specifications](/docs/spiffe/specs/).
 - [Try SPIRE](/spire/), the reference implementation.
 - [Explore the ecosystem](/ecosystem/).
