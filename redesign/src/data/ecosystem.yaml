@@ -316,6 +316,9 @@ categories:
         logo: consul.svg
         homepage: project
       - name: nono
+        guide:
+          label: Authenticate to AI APIs
+          url: /docs/spiffe/use-cases/ai-api-authentication/
         type: community
         weight: 500
         link: https://github.com/nolabs-ai/nono

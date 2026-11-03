@@ -57,6 +57,7 @@ export default defineConfig({
       { label: 'SPIFFE', items: [
         { label: 'Overview', slug: 'docs/spiffe/overview' },
         { label: 'Concepts', slug: 'docs/spiffe/concepts' },
+        { label: 'Use SPIFFE', items: [{ autogenerate: { directory: 'docs/spiffe/use-cases' } }] },
         { label: 'Specifications', items: [{ label: 'Specifications overview', slug: 'docs/spiffe/specs' }, { autogenerate: { directory: 'docs/spiffe/specs' } }] },
       ]},
       { label: 'SPIRE', items: [

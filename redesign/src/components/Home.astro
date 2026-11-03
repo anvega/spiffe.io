@@ -24,9 +24,10 @@ import training from '../data/training.json';
   </section>
   <section class="usecases section-block" aria-labelledby="usecases-heading">
     <div class="section-heading"><div><p class="eyebrow">03 / Applications</p><h2 id="usecases-heading">Workload authentication</h2></div></div>
-    <div class="usecase-row"><span class="row-number">01</span><h3>Authentication between services</h3><p>Use X.509-SVIDs for mutual TLS, or audience-scoped JWT-SVIDs to authenticate HTTP and gRPC requests. The receiving service verifies the credential and applies its access policy.</p></div>
-    <div class="usecase-row"><span class="row-number">02</span><h3>Authentication to platforms</h3><p>Present an SVID to a compatible service, or exchange it for platform credentials with a scoped lifetime.</p></div>
-    <div class="usecase-row"><span class="row-number">03</span><h3>Federation between trust domains</h3><p>Exchange public trust bundles so independently operated domains can verify each other's identities.</p></div>
+    <a class="usecase-row" href="/docs/spiffe/use-cases/service-authentication/" aria-labelledby="application-service-authentication"><span class="row-number">01</span><h3 id="application-service-authentication">Authentication between services</h3><p>Use X.509-SVIDs for mutual TLS, or audience-scoped JWT-SVIDs to authenticate HTTP and gRPC requests. The receiving service verifies the credential and applies its access policy.</p><span class="row-arrow" aria-hidden="true">→</span></a>
+    <a class="usecase-row" href="/docs/spiffe/use-cases/platform-authentication/" aria-labelledby="application-platform-authentication"><span class="row-number">02</span><h3 id="application-platform-authentication">Authentication to platforms</h3><p>Present an SVID to a compatible service, or exchange it for platform credentials with a scoped lifetime.</p><span class="row-arrow" aria-hidden="true">→</span></a>
+    <a class="usecase-row" href="/docs/spiffe/use-cases/federation/" aria-labelledby="application-federation"><span class="row-number">03</span><h3 id="application-federation">Federation between trust domains</h3><p>Exchange public trust bundles so independently operated domains can verify each other's identities.</p><span class="row-arrow" aria-hidden="true">→</span></a>
+    <p><a class="text-link" href="/docs/spiffe/use-cases/high-assurance/">Identity in high-assurance systems →</a></p>
   </section>
   <section class="project-pair section-block" aria-labelledby="projects-heading">
     <div class="section-heading"><div><p class="eyebrow">04 / Companion projects</p><h2 id="projects-heading">SPIFFE and SPIRE</h2></div></div>
