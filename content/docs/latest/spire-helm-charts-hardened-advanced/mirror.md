@@ -45,8 +45,8 @@ helm pull spire --repo https://spiffe.github.io/helm-charts-hardened/
 
 Push up charts to registry
 ```shell
-helm push spire-crds*.tgz oci://<your registry url>/helm-charts-hardened/spire-crds
-helm push spire-0*.tgz oci://<your registry url>/helm-charts-hardened/spire
+helm push spire-crds*.tgz oci://<your registry url>/helm-charts-hardened
+helm push spire-0*.tgz oci://<your registry url>/helm-charts-hardened
 ```
 
 ## Configuration
@@ -66,10 +66,10 @@ global:
 Install using the mirrored charts:
 ```
 helm upgrade --install --create-namespace -n spire-mgmt spire-crds \
-  oci://<your registry url>/helm-charts/spire-crds
+  oci://<your registry url>/helm-charts-hardened/spire-crds
 
-helm upgrade --install -n spire-mgmt spire spire \
- --repo https://spiffe.github.io/helm-charts-hardened/ \
+helm upgrade --install -n spire-mgmt spire \
+ oci://<your registry url>/helm-charts-hardened/spire \
  -f your-values.yaml
 ```
 
